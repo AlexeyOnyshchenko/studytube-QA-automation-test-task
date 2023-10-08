@@ -3,7 +3,7 @@ This repository contains the scripts the scripts and libraries required to run t
 
 # My Cypress Test Suite
 
-This repository contains a test suite for [your application name], using Cypress for end-to-end testing.
+This repository contains a test suite for Application form web app, using Cypress for end-to-end testing.
 
 ## Prerequisites
 
