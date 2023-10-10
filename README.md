@@ -41,6 +41,4 @@ To open the Cypress Test Runner:
 
    ```npx cypress run --browser chrome --headed```
 
-7. To run tests with a specific browser headed (e.g., Firefox):
 
-   ```npx cypress run --browser firefox --headed```
