@@ -1,0 +1,24 @@
+{
+  "name": "studytube_test_task",
+  "version": "1.0.0",
+  "description": "studytube test task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "triggerAllTests-headless": "npx cypress run",
+    "triggerAllTests-headed": "npx cypress run --headed",
+    "triggerAllTests-chrome-headless": "npx cypress run --browser chrome",
+    "triggerAllTests-chrome-headed": "npx cypress run --browser chrome --headed",
+    "triggerAllTests-firefox-headed": "npx cypress run --browser firefox --headed",
+    "triggerAllTests-firefox-headless": "npx cypress run --browser firefox"
+  },
+  "author": "Oleksii Onyshchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.3.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
